@@ -1,7 +1,6 @@
 import { BaseTest } from '@pepperi-addons/addon-testing-framework';
 import { Promise } from 'bluebird';
-import { AddonDataScheme, Collection, PapiClient } from '@pepperi-addons/papi-sdk';
-import { FilterObject, FilterRule } from '../../shared/types';
+import { AddonDataScheme, Collection, FilterObject, FilterRule, PapiClient } from '@pepperi-addons/papi-sdk';
 import { FilterObjectTestService } from '../services/test-services/filter-object-test.service';
 import { FilterRuleTestService } from '../services/test-services/filter-rule-test.service';
 import { v4 as uuid } from "uuid";

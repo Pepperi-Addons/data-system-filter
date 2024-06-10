@@ -1,7 +1,8 @@
 import { Client } from "@pepperi-addons/debug-server/dist";
-import { FilterRule, PermissionSetValues } from "../../../shared/types";
+import { PermissionSetValues } from "../../../shared/types";
 import { BasicTableTestService } from "./basic-table-test.service";
 import { FilterObjectTestService } from "./filter-object-test.service";
+import { FilterRule } from "@pepperi-addons/papi-sdk";
 
 export class FilterRuleTestService extends BasicTableTestService<FilterRule>{
     functionEndpointSuffix: string;

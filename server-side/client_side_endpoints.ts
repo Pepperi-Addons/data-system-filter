@@ -1,6 +1,5 @@
 import { Client, Request } from '@pepperi-addons/debug-server'
-import { AddonData, Collection, PapiClient } from '@pepperi-addons/papi-sdk';
-import { FilterObject } from '../shared/types';
+import { Collection, FilterObject } from '@pepperi-addons/papi-sdk';
 import { FilterObjectService } from './services/filter-object.service';
 import { FilterRuleService } from './services/filter-rule.service';
 

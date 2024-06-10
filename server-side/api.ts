@@ -1,8 +1,7 @@
 import { Client, Request } from '@pepperi-addons/debug-server'
-import { FindOptions } from '@pepperi-addons/papi-sdk';
+import { FilterObject, FilterRule, FindOptions } from '@pepperi-addons/papi-sdk';
 import { FilterObjectService } from './services/filter-object.service';
 import { FilterRuleService } from './services/filter-rule.service';
-import { FilterObject, FilterRule } from '../shared/types';
 
 export async function profile_filters(client: Client, request: Request) {
     const filterRuleService = new FilterRuleService(client, request.header['x-pepperi-ownerid'], request.header['x-pepperi-secretkey']);

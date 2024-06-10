@@ -1,7 +1,7 @@
 import { Promise } from "bluebird";
 import { Client } from "@pepperi-addons/debug-server/dist";
 import { FilterRuleService } from "./filter-rule.service";
-import { FilterRule } from "../../shared/types";
+import { FilterRule } from "@pepperi-addons/papi-sdk";
 
 /**
  * This class was created to handle bug DI-25619 which caused filters to be duplicated.
