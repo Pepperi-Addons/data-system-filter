@@ -30,7 +30,7 @@
     "dependencies": {
         "@pepperi-addons/addon-testing-framework": "^0.0.17",
         "@pepperi-addons/debug-server": "*",
-        "@pepperi-addons/papi-sdk": "*",
+        "@pepperi-addons/papi-sdk": "1.74.0",
         "@types/chai-as-promised": "^7.1.5",
         "@types/mocha": "^10.0.1",
         "bluebird": "^3.7.2",

@@ -1,8 +1,7 @@
 import { Client } from "@pepperi-addons/debug-server/dist";
-import { FilterObject } from "../../../shared/types";
 import { BasicTableTestService } from "./basic-table-test.service";
 import { v4 as uuid } from 'uuid';
-import { AddonDataScheme, Collection } from "@pepperi-addons/papi-sdk";
+import { AddonDataScheme, Collection, FilterObject } from "@pepperi-addons/papi-sdk";
 
 
 export class FilterObjectTestService extends BasicTableTestService<FilterObject>{
