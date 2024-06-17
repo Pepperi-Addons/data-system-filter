@@ -5,9 +5,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { IPepGenericFormDataView, IPepGenericFormValueChange } from "@pepperi-addons/ngx-composite-lib/generic-form";
 import { PepAddonService, PepLayoutService, PepScreenSizeType } from '@pepperi-addons/ngx-lib';
 import { PepDialogService } from '@pepperi-addons/ngx-lib/dialog';
-import { Collection } from "@pepperi-addons/papi-sdk/dist/entities";
+import { Collection, FilterObject } from "@pepperi-addons/papi-sdk/dist/entities";
 import { FilterFormService } from "src/services/filter-form.service";
-import { FilterObject } from "../../../../../shared/types";
 
 @Component({
     selector: 'filter-form',

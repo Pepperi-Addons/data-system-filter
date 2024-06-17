@@ -1,5 +1,5 @@
+import { FilterObject } from "@pepperi-addons/papi-sdk/dist/entities";
 import { EmployeeType } from "../types";
-import { FilterObject } from "../../../shared/types";
 
 export class UtilsService {
 

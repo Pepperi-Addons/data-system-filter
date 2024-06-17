@@ -1,7 +1,6 @@
 import { IPepGenericFormDataView, IPepGenericFormDataViewField } from "@pepperi-addons/ngx-composite-lib/generic-form";
 import { PepAddonService } from "@pepperi-addons/ngx-lib";
-import { Collection } from "@pepperi-addons/papi-sdk/dist/entities";
-import { FilterObject } from "../../../shared/types";
+import { Collection, FilterObject } from "@pepperi-addons/papi-sdk/dist/entities";
 import { FebulaService } from "./febula.service";
 import { EditorMode } from "./consts";
 

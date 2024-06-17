@@ -1,9 +1,9 @@
-import { Collection, SchemeField } from "@pepperi-addons/papi-sdk/dist/entities";
+import { Collection, FilterObject, FilterRule, SchemeField } from "@pepperi-addons/papi-sdk/dist/entities";
 import { PepDialogData, PepDialogService } from "@pepperi-addons/ngx-lib/dialog";
 import { IPepGenericListDataSource, IPepGenericListParams } from "@pepperi-addons/ngx-composite-lib/generic-list";
 import { PepAddonService, PepLayoutService, PepScreenSizeType, PepSessionService } from '@pepperi-addons/ngx-lib';
 import { Component, Input, OnInit, Output, EventEmitter, OnChanges, SimpleChanges } from "@angular/core";
-import { FilterObject, FilterRule, PermissionSetValues } from "../../../../../shared/types";
+import { PermissionSetValues } from "../../../../../shared/types";
 import { UtilsService } from "../../../services/utils.service";
 import { ResourceAndEmployeeType, SyncRuleParameters, ReferenceFieldData, ListData } from "./types";
 import { EMPLOYEE_TYPES } from "../../../types";
