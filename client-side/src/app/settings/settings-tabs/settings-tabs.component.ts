@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PepAddonService } from '@pepperi-addons/ngx-lib';
 import { FebulaService } from '../../../services/febula.service';
-import { FilterObject, FilterRule } from '../../../../../shared/types';
-import { Collection } from '@pepperi-addons/papi-sdk/dist/entities';
+import { Collection, FilterObject, FilterRule } from '@pepperi-addons/papi-sdk/dist/entities';
 
 @Component({
     selector: 'settings-tabs',

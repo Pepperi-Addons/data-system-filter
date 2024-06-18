@@ -5,11 +5,10 @@ import { PepAddonService, PepLayoutService, PepScreenSizeType } from '@pepperi-a
 import { PepSelectionData } from '@pepperi-addons/ngx-lib/list';
 import { IPepGenericListDataSource, IPepGenericListActions } from "@pepperi-addons/ngx-composite-lib/generic-list";
 import { FebulaService } from "../../../services/febula.service";
-import { FilterObject } from "../../../../../shared/types";
 import { PepDialogData, PepDialogService } from "@pepperi-addons/ngx-lib/dialog";
 import { FilterFormComponent } from "../filter-form/filter-form.component";
 import { config } from "../../app.config";
-import { Collection } from "@pepperi-addons/papi-sdk/dist/entities";
+import { Collection, FilterObject } from "@pepperi-addons/papi-sdk/dist/entities";
 
 @Component({
     selector: 'filters-list',

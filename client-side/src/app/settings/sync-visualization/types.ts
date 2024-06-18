@@ -1,5 +1,4 @@
-import { Collection } from "@pepperi-addons/papi-sdk/dist/entities";
-import { FilterRule } from "../../../../../shared/types";
+import { Collection, FilterRule } from "@pepperi-addons/papi-sdk/dist/entities";
 import { EmployeeType } from "../../../types";
 
 export interface ResourceAndEmployeeType {
