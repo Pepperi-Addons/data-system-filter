@@ -27,7 +27,7 @@ The following are important to know fields:
     Resource: string; // The resource we are filtering.
     Filter: string; // Reference to a filter we wish to apply.
     /**
-     * The name of the filter rules set we are modifying,
+     * The name of the rule set this rule applies to,
      * allows us to define different rules for sync modes (i.e. online & sync).
      */
     PermissionSet?: string;
@@ -52,6 +52,9 @@ A filter can point to a previous filter object, allowing us to chain filters.
     PreviousFilter?: string; // Key of the chained filter object.
 }
 ```
+
+Another way to think about it is in SQL terms, the result of a filter is:  
+SELECT `Field` FROM `Resource` WHERE `PreviousField` IN [values returned from `PreviousFilter`].
 
 #### Key Classes:
 - `FilterObjectService` - Manages the filter objects.
@@ -202,7 +205,7 @@ Tabs:
 
 - `Online-Filters` - lists all the profile filters of `Online` permission set.
 
-- `Sync-Visualization` - visualizes the sync rules by listing resources per employee type and presents the rules applied to them.
+- `Sync-Visualization` - visualizes the sync rules by listing resources per employee type and presents the fields involved in the sync rules.
 ![sync-visualization-list](./assets/sync-visualization-list.png)
 ![sync-visualization-popup.png](./assets/sync-visualization-popup.png)
 

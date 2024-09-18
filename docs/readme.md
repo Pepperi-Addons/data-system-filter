@@ -43,4 +43,9 @@ see: [Architecture](./architecture.md)
 
 ---
 
+## Future Ideas & Plans
+- Migrate profile filters to use profiles instead of employee types.
+
+---
+
 ![rules](https://i.giphy.com/iB4PoTVka0Xnul7UaC.webp)
